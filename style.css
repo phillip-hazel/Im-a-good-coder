@@ -1,4 +1,5 @@
 * {
+    font-family: 'Fira Code', serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -9,18 +10,38 @@
 }
 .box-1 {
     flex: 1;
-    height: 100px;
-    background-color: bisque;
-}
-
-.box-2 {
-    flex: 1;
-    height: 100px;
-    background-color: blueviolet;
+    height: 600px;
+    background-color: rgb(166, 232, 156);
+    text-align: center;
 }
 
 .box-3 {
     flex: 1;
-    height: 100px;
-    background-color: black;
+    height: 600px;
+    background-color: whitesmoke;
 }
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.welcome {
+    font-size: 50px;
+  }
+
+.button {
+    background-color: #fdb99e;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
